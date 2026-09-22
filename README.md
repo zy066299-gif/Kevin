@@ -59,11 +59,13 @@ Subsequent runs can omit `--refresh-data`; the pipeline will use the audited loc
 
 ## Google Colab handoff
 
-After this folder is pushed to GitHub, open the notebook in Colab and run:
+Repository: <https://github.com/zy066299-gif/Kevin>
+
+[Open the executed notebook in Google Colab](https://colab.research.google.com/github/zy066299-gif/Kevin/blob/main/notebooks/phase1_backtesting.ipynb), or start a blank Colab notebook and run:
 
 ```python
-!git clone YOUR_REPOSITORY_URL
-%cd YOUR_REPOSITORY_FOLDER
+!git clone https://github.com/zy066299-gif/Kevin.git
+%cd Kevin
 !pip install -q -r requirements-colab.txt
 !pip install -q -e . --no-deps
 ```
@@ -76,8 +78,7 @@ The checked-in processed snapshot lets the notebook rerun without a live Yahoo r
 git init
 git add .
 git commit -m "Add Phase 1 backtesting project"
-# Then create an empty shared GitHub repository and add its URL:
-git remote add origin YOUR_REPOSITORY_URL
+git remote add origin https://github.com/zy066299-gif/Kevin.git
 git branch -M main
 git push -u origin main
 ```

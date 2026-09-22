@@ -1,0 +1,12 @@
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
+yfinance==1.7.0
+pyarrow==25.0.1
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.1
+ipykernel==7.3.0
+pytest==9.1.1
+setuptools==80.9.0
+wheel==0.46.3

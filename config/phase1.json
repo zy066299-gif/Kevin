@@ -1,0 +1,16 @@
+{
+  "tickers": ["SPY", "QQQ", "IWM", "AAPL", "JPM", "JNJ", "XOM", "WMT", "CAT"],
+  "download_start": "2013-01-01",
+  "evaluation_start": "2014-01-02",
+  "end_exclusive": "2025-01-01",
+  "trading_days_per_year": 252,
+  "risk_free_rate": 0.0,
+  "sma_fast": 50,
+  "sma_slow": 200,
+  "momentum_lookback": 252,
+  "rsi_period": 14,
+  "rsi_entry": 30.0,
+  "rsi_exit": 50.0,
+  "cost_sensitivity_bps": 10.0
+}
+

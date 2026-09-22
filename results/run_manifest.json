@@ -1,0 +1,87 @@
+{
+  "completed_at_utc": "2026-09-22T02:40:57.203218+00:00",
+  "config": {
+    "cost_sensitivity_bps": 10.0,
+    "download_start": "2013-01-01",
+    "end_exclusive": "2025-01-01",
+    "evaluation_start": "2014-01-02",
+    "momentum_lookback": 252,
+    "risk_free_rate": 0.0,
+    "rsi_entry": 30.0,
+    "rsi_exit": 50.0,
+    "rsi_period": 14,
+    "sma_fast": 50,
+    "sma_slow": 200,
+    "tickers": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "AAPL",
+      "JPM",
+      "JNJ",
+      "XOM",
+      "WMT",
+      "CAT"
+    ],
+    "trading_days_per_year": 252
+  },
+  "data_sha256": "784c28e14caaa8288b7717f8cac0194d5a69ea863d7f47d61bf857e9d2d02fce",
+  "git_commit": null,
+  "metrics_sha256": "bdb808e0c32e22407b8df2e993cfdf58636bc107909be308c48189749b831019",
+  "source_metadata": {
+    "actual_first_date": "2013-01-02",
+    "actual_last_date": "2024-12-31",
+    "clean_data_sha256": "784c28e14caaa8288b7717f8cac0194d5a69ea863d7f47d61bf857e9d2d02fce",
+    "clean_rows": 27180,
+    "end_date_semantics": "exclusive",
+    "pandas_version": "3.0.6",
+    "provider": "Yahoo Finance via yfinance",
+    "python_version": "3.12.14",
+    "request": {
+      "actions": true,
+      "auto_adjust": false,
+      "end": "2025-01-01",
+      "group_by": "ticker",
+      "interval": "1d",
+      "keepna": true,
+      "multi_level_index": true,
+      "progress": false,
+      "repair": false,
+      "start": "2013-01-01",
+      "threads": true,
+      "timeout": 30
+    },
+    "retrieved_at_utc": "2026-09-22T02:00:06.222445+00:00",
+    "rows_by_ticker": {
+      "AAPL": 3020,
+      "CAT": 3020,
+      "IWM": 3020,
+      "JNJ": 3020,
+      "JPM": 3020,
+      "QQQ": 3020,
+      "SPY": 3020,
+      "WMT": 3020,
+      "XOM": 3020
+    },
+    "schema_version": 1,
+    "source_url": "https://finance.yahoo.com/",
+    "tickers": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "AAPL",
+      "JPM",
+      "JNJ",
+      "XOM",
+      "WMT",
+      "CAT"
+    ],
+    "yfinance_version": "1.7.0"
+  },
+  "source_mode": "cache",
+  "validation": {
+    "finite_reported_metrics": true,
+    "positions_binary": true,
+    "same_evaluation_dates_per_ticker": true
+  }
+}

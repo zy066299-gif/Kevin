@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+*.egg-info/
+*.py[cod]
+.DS_Store
+
+# Preserve locally for audit, but do not push the raw Yahoo response by default.
+data/raw/*
+!data/raw/.gitkeep
